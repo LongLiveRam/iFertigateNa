@@ -19,25 +19,22 @@ body {
 <div id="login_bg">
   <center>
     <img src="images/logo.png" style="height: 80px;"><br>
-    <img src="images/login_icon.png" style="height: 60px;padding: 10px;">
+    <img src="images/login_icon.png" style="height: 60px;padding: 10px;"><br>
+    <b>Log in with Google Account</b>
   </center>
   <form action="/action_page.php">
     <div class="form-group">
-      <label for="username">Username</label>
+      <label for="username">New Username</label>
       <input type="text" class="form-control" id="email" name="email" style="background: transparent;border: none;border-radius: 0px;border-bottom: 1px solid #000000;">
     </div>
     <div class="form-group">
-      <label for="pwd">Password</label>
+      <label for="pwd">New Password</label>
       <input type="password" class="form-control" id="pwd" name="pwd" style="background: transparent;border: none;border-radius: 0px;border-bottom: 1px solid #000000;">
     </div>
-    <div>
-      <a href="" style="text-decoration: none;color: black;">Forgot Password?</a>
-    </div>
+  
     <center>
-      <button type="button" onclick="location.href='Login_Page.html';" style="background-image: url('images/sign_in_with_google.png');background-size: auto;width: 155px;height: 50px;border-radius: 10px;border-width: thin;margin-top: 10px; margin-bottom: 30px;"><a href="Login_Page.html"></a></button><br>
-    </center>
-    <center>
-      <button type="submit" class="btn btn-default" style="background-color: #66ff66;border-color: black;"><b>LOGIN</b></button>
+      <button type="button" class="btn btn-default" style="background-color: #66ff66;border-color: black;margin-right: 20px;" onclick="location.href='Main_Interface.html';"><b>LOGIN</b></button>
+      <button type="submit" class="btn btn-default" style="background-color: #66ff66;border-color: black;"><b>SKIP</b></button>
     </center>
     
   </form>
